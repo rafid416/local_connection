@@ -1,0 +1,485 @@
+body{
+    font-family: 'Ubuntu','Mukta', sans-serif;
+}
+footer .fab{
+    font-size: 1.6em;
+    color:white;
+    padding:5px;
+}
+ div hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid white;
+}
+.text{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: lightcyan;
+    font-weight: 900;
+}
+.mybody a{
+    text-decoration: none;
+}
+.cycler img{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.mainheading{
+    font-size:1em;
+    height: 60vh;
+    padding-top: 10%;
+}
+.h5heading{
+    font-weight: bold;
+}
+footer{
+    background-image: url("./images/1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+
+.populardest h2::after,.cities1 h1::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 4px;
+    width: 310px;
+    border-top: 1px dotted #007bff;
+    border-bottom: 1px dotted #007bff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.secondheading h2::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 4px;
+    width: 70%;
+    border-top: 1px dotted #007bff;
+    border-bottom: 1px dotted #007bff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secondicons{
+    border: 1px solid blue;
+    border-radius: 50%;
+    font-size: 2em;
+    padding: 17px;
+    color: blue;
+}
+
+.firsticons{
+    border: 1px solid blue;
+    border-radius: 50%;
+    font-size: 1.4em;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.p{
+    font-size: 0.7em;
+    font-weight: normal;
+}
+@media only screen and (max-width: 768px) {
+        .cities1{
+            padding: 10px 0;
+        }
+        .first{
+            margin-bottom: auto!important;
+        }
+    }
+@media only screen and (max-width: 850px) {
+    .jumbohead{
+        height: 400px!important;
+    }
+    }
+@media only screen and (max-width: 600px) {
+    .mainheading{
+        height: 40vh;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .cycler img{
+        top: 12%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    header .navbar{
+        height: auto;
+        /* padding: 20px; */
+    }
+    .navlinksheader{
+        text-align: right;
+        padding: 10px;
+    }
+    .nav-link{
+      padding: 10px;
+    }
+    .navlinksheader .nav-link:hover{
+        transform: scale(1.1)!important;
+    }
+    .navlogo {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .content h5,p {
+        margin-left: 20px;
+    }}
+
+@media only screen and (max-width: 1240px) {
+    .content h5,p {
+        margin-left: 20px;
+    }}
+@media only screen and (max-width: 991px) {
+        .content h5,p {
+            margin-left: 0;
+        }}
+@media only screen and (max-width: 1400px) {
+    .content1 h5,p {
+        margin-left: 20px;
+    }}
+@media only screen and (max-width: 1015px) {
+        .content1 h5,p {
+            margin-left: 25px;
+        }}
+@media only screen and (max-width: 991px) {
+    .content1 h5,p {
+        margin-left: 0;
+    }}
+
+.cities1 img{
+    box-shadow: 0 0 10px grey;
+}
+.lead{
+    font-size: 2em;
+}
+.about p{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.aboutheaders{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.jumbohead{
+    background-image: url("./images/nightabout.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.jumboguides{
+    background-image: url("./images/torontoguides.jpg");
+    background-size: cover;
+    height: 350px;
+}
+.jumboguides h1{
+    font-weight: 900;
+    color: ghostwhite;
+}
+.jumbohead .lead{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.aboutheaders::after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    height: 4px;
+    width: 210px;
+    border-top: 1px dotted #007bff;
+    border-bottom: 1px dotted #007bff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.cities1:hover img{
+opacity: 0.5;
+}
+.cities1:hover .text{
+    opacity: 1;
+    color: darkblue;
+    font-weight: 900;
+
+}
+.about .secondicons{
+    border: 1px solid blue;
+    border-radius: 50%;
+    font-size: 2em;
+    padding: 30px;
+    color: blue;
+}
+.aboutcontact{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
+.imgcontainer{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.images{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.guidecontainer{
+    width: 605px;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    text-align: start;
+    box-shadow: 0px 0px 5px 0px grey;
+    
+}
+.guidedetails{
+    width: 400px;
+    display: inline-block;
+}
+.namecontainer{
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+.pricecontainer{
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+    text-align: right;
+
+}
+.detailcontainer{
+    border-bottom: 1px solid darkgray;
+}
+.torontoguides{
+    background-color: lightgray;
+}
+.descriptiondetails{
+    border-bottom: 1px solid darkgray;
+}
+.maincontainer{
+    text-align: center
+}
+.textdescribe{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media only screen and (max-width: 1295px) {
+.guidecontainer{
+width: 500px;
+text-align: left
+}
+.imgcontainer{
+width: 180px;
+height: 200px;
+}
+.guidedetails{
+width: 315px;
+}
+.maincontainer p{
+font-size: 0.8em;
+}
+}
+@media only screen and (max-width: 1084px) {
+.guidecontainer{
+width: 400px;
+}
+.imgcontainer{
+width: 150px;
+height: 160px;
+}
+.guidedetails{
+width: 245px;
+}
+.maincontainer p{
+font-size: 0.7em;
+}
+.btn{
+font-size: 0.8em;
+padding: 0.5em;
+}
+}
+@media only screen and (max-width: 884px) {
+.guidecontainer{
+width: 605px;
+}
+.imgcontainer{
+width: 200px;
+height: 200px;
+}
+.guidedetails{
+width: 400px;
+}
+.maincontainer p{
+font-size:1em;
+}
+.btn{
+font-size: 1em;
+padding: 0.5em;
+}
+}
+@media only screen and (max-width: 650px) {
+.guidecontainer{
+    width: 400px;
+}
+.imgcontainer{
+    width: 150px;
+    height: 160px;
+}
+.guidedetails{
+width: 245px;
+}
+.maincontainer p{
+    font-size: 0.7em;
+}
+.btn{
+font-size: 0.8em;
+padding: 0.5em;
+}
+}
+.loginbutton, .signupbutton, .login, .signup{
+    width: 100%;
+}
+.hrform{
+    border-color: black;
+}
+.formcontainer{
+    width: 450px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: azure;
+    box-shadow: 0 0 5px 0 black;
+    padding: 0 70px;
+    display: none;
+    transform: translate(-50%, -50%);
+    z-index: 301;
+}
+.formcontainersu{
+    width: 500px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: azure;
+    box-shadow: 0 0 5px 0 black;
+    padding: 0 90px;
+    display: none;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+}
+.closeicon{
+      position: absolute;
+    font-size: 1.8em;
+    right: 2%;
+    top: 2%;
+}
+.closeicon:hover{
+    color: grey;
+}
+.navbar{
+    position: fixed;
+    background-color: black!important;
+    height: 105px;
+    width: 100%;
+    z-index: 200;
+    transition: height 500ms;
+}
+.placeholder{
+    height: 60px;
+}
+.navlinksheader .nav-link{
+    font-size: 1.2em;
+    padding: 5px 30px!important;
+    transition: all .2s ease-in-out;
+}
+.mainheading h1,h3{
+    font-weight: 900;
+}
+nav div .navlinksheader .nav-link:hover{
+    transform: scale(1.3);
+}
+.scrollnav {
+    height: 50px;
+    transition: height 500ms;
+}
+.brandlogo{
+    width: 120px!important;
+    transition: 500ms;
+}
+.navitems{
+    font-size: 1em!important;
+    transition: 500ms;
+}
+.bodyeffect{
+    background-color: black!important;
+    opacity: 0.5;
+}
+.loginheading{
+font-size: 1.50em;
+}
+.mybody{
+    opacity: 0.5;
+    overflow: hidden;
+    pointer-events: none;
+}
+.scrolllock{
+    overflow: hidden;
+}
+.updateprofile{
+    max-width: 900px;
+}
+.gen{
+    width: 40%;
+}
+.leftfooter p{
+    margin-left: 0px!important;
+}
+@media only screen and (max-width: 500px) {
+    .mainheading{padding:13% 10% 10% 10%;height: 30vh;}
+    .mainheading h1{font-size:1.5em;}
+    .mainheading h3{font-size: 1.1em;margin-top: 5%;}
+    .content .row{ padding-top: 3%!important;}
+    .cycler img {top: 10%;}
+    .populardest h2{font-size: 1.5rem;}
+    .populardest h2::after{width: 70%;}
+    .cities1 {padding:unset;margin:15px;}
+    .firstback{margin-bottom:0px!important}
+    .ven{width:100%;}
+    .venice{height:150px;}
+    .cities1 h1::after{width:70%}
+    .h1cities{ font-size: 2em;}
+    .jumbohead .lead {font-size: 1.5em;padding: 20px;}
+    .aboutheaders {font-size: 2em;}
+    .aboutheaders::after{top: 45px;}
+    .usrow{margin: 0px 5px;}
+    .aboutcontact {font-size: 2em;}
+    .about p {margin: 0 25px;font-size: 1em;}
+    .formcontainer {width: 305px;padding: 0 40px;}
+    .formcontainersu {width: 305px;padding: 0 40px;}
+    .loginheading {margin-bottom: 5px!important;}
+    .formcontainersu hr{margin: 0!important} 
+    .jumboguides h1 {font-size: 3em;text-align: center;margin-top: 60px!important;}
+    .maincontainer {margin: 0!important;}
+    .guidecontainer{width: 70%;}
+    .guidedetails{margin-top: 10px!important;width: 100%!important}
+    .imgcontainer{width: 100%; height:auto;}
+    .h5heading{margin-top: 5px;}
+}
+
+    
+
