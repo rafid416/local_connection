@@ -6,8 +6,8 @@ $dotenv->load();
     session_start();
 
     $servername = getenv('servername'); 
-    $username = getenv('localconnection');
-    $password = getenv('allusers');
+    $username = getenv('username');
+    $password = getenv('password');
     // $conn = new_connect ($servername, $username, $password);
     $conn = new mysqli ($servername, $username, $password);
 

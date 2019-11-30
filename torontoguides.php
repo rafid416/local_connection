@@ -1,4 +1,8 @@
 <?php
+include_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
 session_start();
 
 if (isset($_POST["requestbutton"])){
@@ -9,10 +13,9 @@ if (isset($_POST["requestbutton"])){
     $_SESSION["location"] = $_POST["location"];
 
 
-    $servername = "localhost";
-
-    $username = "localconnection";
-    $password = "allusers";
+    $servername = getenv('servername'); 
+    $username = getenv('username');
+    $password = getenv('password');
     $conn = new mysqli ($servername, $username, $password);
 
     if ($conn->connect_error){

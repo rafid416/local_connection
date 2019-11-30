@@ -11,12 +11,10 @@ $dotenv->load();
         $_SESSION["lemail"] = $_POST["lemail"];
         $_SESSION["lpass"] = $_POST["lpass"];
 
-        // $servername = "localhost"; 
-        // $username = "localconnection";
-        // $password = "allusers";
+
         $servername = getenv('servername'); 
-        $username = getenv('localconnection');
-        $password = getenv('allusers');
+        $username = getenv('username');
+        $password = getenv('password');
         $conn = new mysqli ($servername, $username, $password);
 
         if ($conn->connect_error){

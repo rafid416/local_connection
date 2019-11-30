@@ -1,4 +1,8 @@
 <?php
+include_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
 session_start();
 
     if (!isset($_SESSION["lfn"]) && !isset($_SESSION["lemail"])){
@@ -19,8 +23,8 @@ session_start();
  
     
         $servername = getenv('servername'); 
-        $username = getenv('localconnection');
-        $password = getenv('allusers');
+        $username = getenv('username');
+        $password = getenv('password');
         $conn = new mysqli ($servername, $username, $password);
 
         if ($conn->connect_error){
@@ -64,8 +68,8 @@ session_start();
         }
 
         $servername = getenv('servername'); 
-        $username = getenv('localconnection');
-        $password = getenv('allusers');
+        $username = getenv('username');
+        $password = getenv('password');
         $conn = new mysqli ($servername, $username, $password);
 
         if ($conn->connect_error){
