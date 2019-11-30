@@ -8,8 +8,8 @@ To view the app, go to http://www.rafidasira.com/localconnection/index.php
 
 > You can enter the following credentials to test drive the app with its full features:
 
-Email: testing@testing.com
-Password: testing
+* Email: testing@testing.com
+* Password: testing
 
 ## Getting Started
 
